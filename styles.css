@@ -1,23 +1,37 @@
-body{
-    background-color:white;
-    
+body {
+  background-color: white;
+  margin: 0;
 }
-#menu{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
 }
-#menu li{
-    width: 80px;
-	float: right;
-	margin-left: 3px;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#blogname {
+  font-weight: bold;
+  padding: 0 10px;
+  font-size: 12px;
+}
+#navbar li {
+  display: inline-block;
+}
+#navbar a {
+  text-decoration: none;
+  font-size: 15px;
+  padding-right: 15px;
+  font-weight: bold;
 }
 .line {
-    border-bottom: 2px solid black;
-    margin-top: 5px;
-    width: 70%;
-
+  border-bottom: 2px solid black;
+  margin-top: 10px;
+  width: auto;
 }
-ul.list{
-    list-style-type: disc;
+ul.list {
+  list-style-type: disc;
 }
